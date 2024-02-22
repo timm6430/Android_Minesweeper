@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuDifficulty"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="@string/sGameDifficulty">
+        <menu>
+            <item
+                android:id="@+id/Easy"
+                android:title="@string/sEasy"/>
+            <item
+                android:id="@+id/Medium"
+                android:title="@string/sMedium"/>
+            <item
+                android:id="@+id/Hard"
+                android:title="@string/sHard"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuSeed"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/sGameRandomness">
+        <menu>
+            <item
+                android:id="@+id/ZeroSeed"
+                android:title="@string/sSeedZero"/>
+            <item
+                android:id="@+id/TimeOfDaySeed"
+                android:title="@string/sSeedTime"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuAbout"
+        android:orderInCategory="2"
+        android:title="@string/sAbout"
+        app:showAsAction="never" />
+</menu>

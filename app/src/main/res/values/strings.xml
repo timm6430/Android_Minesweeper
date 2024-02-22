@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">timm6430MinesweeperAndroid V2.1</string>
+    <string name="sNewGame">New Game</string>
+    <string name="sAbout">About</string>
+    <string name="sGameDifficulty">Game Difficulty</string>
+    <string name="sGameRandomness">Game Randomness</string>
+    <string name="sEasy">Easy</string>
+    <string name="sMedium">Medium</string>
+    <string name="sHard">Hard</string>
+    <string name="sSeedZero">Seed Zero</string>
+    <string name="sSeedTime">Seed Time Of Day</string>
+    <string name="rulesOfGameTitle">Rules of The Game </string>
+    <string name="rulesOfGame">
+        Use the left click button on the mouse to select a space on the grid. \n
+        If you hit a bomb, you lose. \n
+        The numbers on the board represent how many bombs are adjacent
+        to a square. For example, if a square has a "3" on it, then there are 3 bombs next to that
+        square. The bombs could be above, below, right left, or diagonal to the square. \n
+        Avoid all the bombs and expose all the empty spaces to win Minesweeper. \n\n
+        Changing the difficulty only changes the difficulty, the seed stays the same.\n
+        Changing the seed only changes the seed, the difficulty stays the same.
+    </string>
+    <string name="Information">Author: <b>Michael Timmerman \n</b>
+        Email: <b>timm6430@pacificu.edu \n</b>
+        Icon URL: <b>http://www.sireasgallery.com/iconset/minesweeper \n</b>
+        Version: <b>2.1 \n</b></string>
+    <string-array name="aGameDifficulty">
+        <item>@string/sEasy</item>
+        <item>@string/sMedium</item>
+        <item>@string/sHard</item>
+    </string-array>
+    <string-array name="aGameRandomness">
+        <item>@string/sSeedZero</item>
+        <item>@string/sSeedTime</item>
+    </string-array>
+</resources>
